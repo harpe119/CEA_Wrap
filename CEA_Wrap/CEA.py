@@ -9,8 +9,6 @@ logging = _logging.getLogger(__name__)
 
 _BASE_CEA = "FCEA2.exe" if platform.system() == "Windows" else "FCEA2"
 
-#TEST
-
 # The first time we install from source, we need to move our files from the ".assets" directory to our data directory
 # This function checks if the assets directory still exists, and if so, will try to copy files to it.
 cleanup_package_install()
